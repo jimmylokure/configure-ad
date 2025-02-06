@@ -46,9 +46,21 @@ The first VM we're creating is the domain controller, choose 'Windows Server' fo
 <p>
 <img src="https://i.imgur.com/tWFUl0J.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
 <img src="https://i.imgur.com/CkuOCSl.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The second VM will be our client machine for the domain, choose 'Windows 10' for the image with 2 virtual cpus. You also need to select the same virtual network you created beforehand in relation to the domain controller.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/rGzyKBh.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/kcW38zQ.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to the domain controller's network settings and click it's network interface card. Change the NIC private IP Address to 'static'.
 </p>
 <br />
