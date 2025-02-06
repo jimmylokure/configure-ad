@@ -20,20 +20,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Active Directory Deployment Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/Kg5eCfI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kg5eCfI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/PSe5QH1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PSe5QH1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 Firstly, create a resourse group and virtual network for the two virtual machines we're going to create.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/Kg4eflv.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kg4eflv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/OV3haPW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OV3haPW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The first VM we're creating is the domain controller, choose 'Windows Server' for the image. Also in the 'Networking' Tab of the creation, choose the virtual network you made previously.
@@ -41,12 +41,12 @@ The first VM we're creating is the domain controller, choose 'Windows Server' fo
 <br />
 
 <p>
-<img src="https://i.imgur.com/m9z8Kd0.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/m9z8Kd0.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/tWFUl0J.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tWFUl0J.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
-<img src="https://i.imgur.com/CkuOCSl.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CkuOCSl.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The second VM will be our client machine for the domain, choose 'Windows 10' for the image with 2 virtual cpus. You also need to select the same virtual network you created beforehand in relation to the domain controller.
