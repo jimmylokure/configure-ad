@@ -111,8 +111,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-8) Run powershell and ping your domain controller's private ip address to test it's connectivity.
-  Run 'ipconfig /all' to determine the client's DNS server and domain controller's private ip is the same.
+8) Run Powershell and ping your domain controller's private ip address to test it's connectivity.
+  Run 'ipconfig /all' in Powershell to determine the client's DNS server and domain controller's private ip is the same.
 </p>
 <p>
 <img src="https://i.imgur.com/7j95VDi.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
@@ -122,5 +122,35 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 <img src="https://i.imgur.com/U3UeOgZ.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+9) Log into your domain controller, open Server Manager and 'Add roles and features'.
+  Inside the wizard, select 'Active Directory Domain Services' in the 'Server Roles' Tab. 'Restart the destination server automatically' in the 'Confirmation' tab, and install.
+</p>
+<p>
+<img src="https://i.imgur.com/xGXJlbZ.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/wT9nYwI.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/o4X2NM5.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/CNwYIX6.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/Q8k1Mms.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/nt7EAxU.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/G4Ms7us.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/BrjKsoW.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
