@@ -127,7 +127,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 9) Log into your domain controller, open Server Manager and 'Add roles and features'.
-  Inside the wizard, select 'Active Directory Domain Services' in the 'Server Roles' Tab. 'Restart the destination server automatically' in the 'Confirmation' tab, and install.
+  Inside the wizard, select 'Active Directory Domain Services' in the 'Server Roles' Tab. Restart the destination server automatically' in the 'Confirmation' tab, and install.
 </p>
 <p>
 <img src="https://i.imgur.com/xGXJlbZ.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
@@ -157,7 +157,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 10) Back in the Server Manager, click the flag notification at the top right and promote the server to a domain controller.
-  Add a new forest and choose a root domain name, (I chose mydomain.com for the sake of lab practice).
+  Add a new forest and choose a root domain name (I chose mydomain.com for the sake of lab practice).
   Choose a password for the domain and create a DNS delegation.
   Install Domain Services and let the VM restart.
 </p>
