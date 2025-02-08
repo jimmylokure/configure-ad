@@ -154,3 +154,38 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/BrjKsoW.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<p>
+10) Back in the Server Manager, click the flag notification at the top right and promote the server to a domain controller.
+  Add a new forest and choose a root domain name, (I chose mydomain.com for the sake of lab practice).
+  Choose a password for the domain and create a DNS delegation.
+  Install Domain Services and let the VM restart.
+</p>
+<p>
+<img src="https://i.imgur.com/adq9DF1.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/kFeKo7G.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/6f8ZCUg.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/5G5hsNu.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/CkjwRYx.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/OHTjQjr.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/7ACzvyo.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/5UwvocT.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/sFyw3Hh.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
