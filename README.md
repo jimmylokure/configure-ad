@@ -217,6 +217,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/E7PsKCu.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<img src="https://i.imgur.com/fYqYqns.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 <img src="https://i.imgur.com/oC5XU6w.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -227,5 +230,43 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 <img src="https://i.imgur.com/7qzuYld.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+14) Log into your client VM with your original user (labuser) and open system settings inside. Click *Rename this PC (advanced)* and join it to your domain.
+</p>
+<p>
+<img src="https://i.imgur.com/NxW3YQg.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/G3JsDOP.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/C8SvvuH.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/EFiwHA7.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/WDoTWrl.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/WYEw5LW.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+15) Log back into your domain controller and open *Active Directory Users and Computer*. Make a new organizational unit called "*_CLIENTS*" and bring your client from the "*Computers*" folder and drag it into "*_Clients*"
+</p>
+<p>
+<img src="https://i.imgur.com/cS0bjDG.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/4EyJpgh.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/poYnME8.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/BY1Q5Tj.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
