@@ -210,8 +210,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 
-13) Create a new user inside the *_ADMINS* OU, note it and make a login for your client VM. *I'll login with mydomain.com\jane_admin*
-    Go to the user's properties, go to the *Member Of* tab and click add. Make your user a *Domain Admin* and click ok.
+13) Create a new user inside the *_ADMINS* OU, note it and make a login for the domain controller. *I'll login with mydomain.com\jane_admin*
+    Go to the user's properties, go to the *Member Of* tab and add your user to the *Domain Users* Security Group.
 </p>
 <p>
 <img src="https://i.imgur.com/E7PsKCu.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
