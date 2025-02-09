@@ -189,3 +189,43 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/sFyw3Hh.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+11) Sign into your domain controller with "*yourdomainname.com\youruser*". Mine is "mydomain.com\labuser. Inside, open Active Directory Users and Computers.
+</p>
+<p>
+<img src="https://i.imgur.com/dT6Wmlw.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/V5zmQcN.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+12) Create two new organizational units inside your domain called "_ADMINS" and "_EMPLOYEES".
+</p>
+<p>
+<img src="https://i.imgur.com/FDxL5X6.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/x1CsJxN.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+13) Create a new user inside the *_ADMINS* OU, note it and make a login for your client VM. *I'll login with mydomain.com\jane_admin*
+    Go to the user's properties, go to the *Member Of* tab and click add. Make your user a *Domain Admin* and click ok.
+</p>
+<p>
+<img src="https://i.imgur.com/E7PsKCu.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/oC5XU6w.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/yLqbxcY.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/0sp9UNx.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/7qzuYld.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
