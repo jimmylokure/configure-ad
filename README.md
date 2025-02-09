@@ -321,3 +321,5 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/WBO5G9P.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+![](https://github.com/jimmylokure/configure-ad/blob/main/dog-awkward.gif)
