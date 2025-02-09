@@ -270,3 +270,54 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/BY1Q5Tj.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+16) Log into the client VM again with your domain login (*mydomain.com\jane_admin*). Open system settings and click *Remote Desktop* on the right. Click *Select users that can remotely access this PC* and allow "*Domain Users*" access. This allows non-administrative users to log into the client VM.
+</p>
+<p>
+<img src="https://i.imgur.com/E5HWvVA.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/leNeMx6.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/gXQUKUc.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/vUZ0tsP.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+17) Lastly, we'll create non-admin users to test logging into the client VM. Log into the domain controller VM again and run Powershell ISE as an administrator. Make a new file at the top left and paste this [script](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into the file. Run the script and observe the users being made, (*Password for all the users is "Password1").
+<p>
+<img src="https://i.imgur.com/9elWOz2.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/WZ4ljYh.png" height="45%" width="45%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/wjzpsG6.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/QXaPu8P.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/LH48kDZ.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+18) Open *Active Directory Users and Computers* and go to the *_EMPLOYEES* organizational unit. You'll see all the users the script in Powershell created. Choose a user to log into your client machine.
+</p>
+<p>
+<img src="https://i.imgur.com/lQT6oGq.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+19) Attempt to log into your client VM with a chosen user. Active Directory Configuration Lab is finished.
+</p>
+<p>
+<img src="https://i.imgur.com/nERBS3L.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/WBO5G9P.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
